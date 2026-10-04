@@ -41,10 +41,10 @@ Tools
 📂 Project Structure
 
 PocketManager/
-│
-├── backend/             # Backend server (Node.js + Express + MySQL)
+│\
+├── backend/             # Backend server (Node.js + Express + MySQL)\
 │   ├── routes/           # API routes
-│   ├── models/           # Database models
+│   ├── models/           # Database models\
 │   ├── controllers/      # Logic for handling requests
 │   └── server.js         # Main backend file
 │
@@ -72,7 +72,7 @@ cd pocket-manager
 
 2️⃣ Backend Setup
 
-cd backend
+cd server
 npm install
 
 	•	Create a .env file in the backend folder:
@@ -89,7 +89,7 @@ npm start
 
 3️⃣ Frontend Setup
 
-cd frontend
+cd src
 npm install
 npm start
 
