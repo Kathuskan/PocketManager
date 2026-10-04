@@ -1,120 +1,144 @@
-Pocket Manager
+```markdown
+# Pocket Manager
 
-Pocket Manager is a simple and user-friendly personal finance tracking web application.
-It allows users to manually log transactions, track income, expenses, and savings, and view an interactive dashboard for quick financial insights.
+Pocket Manager is a simple and user-friendly personal finance tracking web application. It allows users to manually log transactions, track income, expenses, and savings, and view an interactive dashboard for quick financial insights.
 
-⸻
+---
 
-📌 Features
-	•	User Registration with Profile Picture – Create an account and upload your profile picture during signup.
-	•	Secure Login – Authentication using stored credentials.
-	•	Profile Page – Displays user details along with the profile picture.
-	•	Manual Transaction Entry – Add, edit, and delete transactions with categories (Income, Expense, Savings).
-	•	Dynamic Dashboard – Displays:
-	•	Total Income
-	•	Total Expenses
-	•	Manual Savings
-	•	Net Savings
-	•	Recent Transactions
-	•	CSV Report Generation – Export all transactions in CSV format.
-	•	Responsive UI – Simple, minimal, and user-friendly design.
+## 📌 Features
 
-⸻
+* **User Registration with Profile Picture** – Create an account and upload your profile picture during signup.
+* **Secure Login** – Authentication using stored credentials.
+* **Profile Page** – Displays user details along with the profile picture.
+* **Manual Transaction Entry** – Add, edit, and delete transactions with categories (Income, Expense, Savings).
+* **Dynamic Dashboard** – Displays:
+  * Total Income
+  * Total Expenses
+  * Manual Savings
+  * Net Savings
+  * Recent Transactions
+* **CSV Report Generation** – Export all transactions in CSV format.
+* **Responsive UI** – Simple, minimal, and user-friendly design.
 
-🛠 Tech Stack
+---
 
-Frontend
-	•	React.js
-	•	Tailwind CSS
+## 🛠 Tech Stack
 
-Backend
-	•	Node.js
-	•	Express.js
-	•	MySQL
+**Frontend**
+* React.js
+* Tailwind CSS
 
-Tools
-	•	macOS for development
-	•	Insomnia for API testing
+**Backend**
+* Node.js
+* Express.js
+* MySQL
 
-⸻
+**Tools**
+* macOS for development
+* Insomnia for API testing
 
-📂 Project Structure
+---
 
+## 📂 Project Structure
+
+```text
 PocketManager/
-│\
-├── backend/             # Backend server (Node.js + Express + MySQL)\
+├── backend/              # Backend server (Node.js + Express + MySQL)
 │   ├── routes/           # API routes
-│   ├── models/           # Database models\
+│   ├── models/           # Database models
 │   ├── controllers/      # Logic for handling requests
 │   └── server.js         # Main backend file
-│
-├── frontend/            # React.js frontend
+├── frontend/             # React.js frontend
 │   ├── src/              # Components, Pages, Hooks
 │   ├── App.js            # Main app entry
 │   └── index.js          # React entry point
-│
-└── README.md            # Documentation
+└── README.md             # Documentation
 
+```
 
-⸻
+---
 
-⚙️ Installation & Setup
+## ⚙ Installation & Setup
 
-Prerequisites
-	•	Node.js (v16+ recommended)
-	•	MySQL
-	•	npm or yarn
+### Prerequisites
 
-1️⃣ Clone the repository
+* Node.js (v16+ recommended)
+* MySQL
+* npm or yarn
 
-git clone https://github.com/yourusername/pocket-manager.git
+### 1️⃣ Clone the repository
+
+```bash
+git clone [https://github.com/yourusername/pocket-manager.git](https://github.com/yourusername/pocket-manager.git)
 cd pocket-manager
 
-2️⃣ Backend Setup
+```
 
-cd server
+### 2️⃣ Backend Setup
+
+```bash
+cd backend
 npm install
 
-	•	Create a .env file in the backend folder:
+```
 
+Create a `.env` file in the `backend` folder and configure your variables:
+
+```env
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=pocketmanager
 PORT=3007
 
-	•	Start the backend server:
+```
 
+Start the backend server:
+
+```bash
 npm start
 
-3️⃣ Frontend Setup
+```
 
-cd src
+### 3️⃣ Frontend Setup
+
+Open a new terminal window/tab, navigate to the project root, and run:
+
+```bash
+cd frontend
 npm install
 npm start
 
+```
 
-⸻
+---
 
-📊 Usage
-	1.	Register a new account with a profile picture.
-	2.	Log in with your credentials.
-	3.	Add income, expense, or savings transactions.
-	4.	View totals and recent transactions on the dashboard.
-	5.	Export transactions as a CSV file.
+## 📊 Usage
 
-⸻
+1. Register a new account with a profile picture.
+2. Log in with your credentials.
+3. Add income, expense, or savings transactions.
+4. View totals and recent transactions on the dashboard.
+5. Export transactions as a CSV file.
 
-🚀 Future Enhancements
-	•	Goal tracking and gamification.
-	•	Mobile-friendly responsive UI improvements.
-	•	Real-time notifications and reminders.
-	•	AI-powered spending analysis.
-	•	Cloud syncing for multi-device access.
+---
 
-⸻
+## 🚀 Future Enhancements
 
-👨‍💻 Author
+* Goal tracking and gamification.
+* Mobile-friendly responsive UI improvements.
+* Real-time notifications and reminders.
+* AI-powered spending analysis.
+* Cloud syncing for multi-device access.
 
-Kathuskan Thavarajah
+---
+
+## 👨‍💻 Author
+
+**Kathuskan Thavarajah**
+
 BSc (Hons) in Data Science (Undergraduate) – Sabaragamuwa University of Sri Lanka
+
+```
+
+```
